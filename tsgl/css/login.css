@@ -1,0 +1,51 @@
+.content {
+    height: 600px;
+    margin-top: 80px;
+}
+
+.log input {
+    height: 25px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.log {
+    float: left;
+    margin-left: 600px;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: 楷体;
+}
+
+h2 {
+    font-size: 70px;
+    color: #9E6E4E;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.line {
+    margin-left: -250px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 2px;
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+    background-color: cornsilk;
+}
+
+.log .but:hover {
+    background: black;
+    transition: 0.5s all;
+}
+
+.log .but {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    height: 40px;
+    width: 25%;
+    background: white;
+    color: rgb(190, 99, 99);
+    border: none;
+    outline: none;
+}

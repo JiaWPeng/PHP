@@ -1,0 +1,39 @@
+.box_all {
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.center_box {
+    float: left;
+    margin-top: 50px;
+}
+
+.center_box .up {
+    margin-top: 100px;
+}
+
+.center_box .title {
+    font-family: 楷体;
+    color: #9E6E4E;
+    font-size: 60px;
+    margin-left: 380px;
+
+}
+
+.center_box img {
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.center_box p {
+    position: relative;
+
+    width: 900px;
+}

@@ -1,0 +1,102 @@
+     /* 轮播图样式 */
+
+
+     .banner {
+         /* 图片盒子 */
+
+         width: 100%;
+         height: 750px;
+         float: left;
+         overflow: hidden;
+         border-radius: 10px;
+         /* 整个盒子居中处理 */
+         position: relative;
+         background: url(../images/书.jpg) no-repeat 80px;
+
+     }
+
+     .banner h5 {
+         font-size: 25px;
+         float: left;
+         position: absolute;
+         margin-left: 25px;
+         margin-top: -10px;
+         color: #9E6E4E;
+         font-family: 楷体;
+         text-align: center;
+     }
+
+     .banner p {
+         float: left;
+         position: absolute;
+         margin-left: 360px;
+         margin-top: -50px;
+         font-family: 宋体;
+         font-weight: 600;
+     }
+
+
+
+     .item {
+         position: absolute;
+         top: 300px;
+         left: 320px;
+         height: 600px;
+         width: 720px;
+     }
+
+     /* .item {
+float: left;
+} */
+
+
+
+     .cursor {
+         /* 大于号与小于号 */
+         width: 50px;
+         height: 200px;
+         background: rgb(0, 0, 0);
+         opacity: 0.6;
+         position: absolute;
+         top: 210px;
+         color: white;
+         font-size: 25px;
+         font-weight: bold;
+         text-align: center;
+         line-height: 200px;
+         cursor: pointer;
+     }
+
+     .cursor:hover {
+         background: rgb(124, 117, 117);
+     }
+
+     .pre {
+         left: 0px;
+     }
+
+     .next {
+         right: 0px;
+     }
+
+     .dots {
+         position: absolute;
+         width: 400px;
+         left: 550px;
+         bottom: 10px;
+         overflow: hidden;
+     }
+
+     .dots li {
+         /* 几个小点点 */
+         float: left;
+         width: 80px;
+         height: 10px;
+         background: rgb(0, 0, 0);
+         border-radius: 10px;
+         margin: 5px 15px;
+     }
+
+     .active {
+         background: rgb(241, 163, 18) !important;
+     }

@@ -1,0 +1,35 @@
+.content_one {
+    height: auto;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.content_one .b {
+    padding-left: 70px;
+}
+
+.content_one .b .a {
+    display: inline-block;
+    height: 330px;
+    width: 350px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.a p {
+    margin-top: 5px;
+
+}
+
+
+.content_one .a a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content_one .a .c {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}

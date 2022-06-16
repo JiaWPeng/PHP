@@ -1,0 +1,285 @@
+/* 全局初始化 */
+html,
+body {
+    font-size: 100%;
+    margin: 0;
+}
+
+body {
+    background: url(../images/beijing1.jpg) no-repeat center center;
+    /*加载背景图*/
+    /* 背景图不平铺 */
+    background-size: cover;
+    /* 让背景图基于容器大小伸缩 */
+    background-attachment: fixed;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-color: #CCCCCC;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+}
+
+.top {
+    height: 71px;
+}
+
+.kong {
+
+    height: 350px;
+    background: url(../images/书.jpg) no-repeat center center;
+    /*加载背景图*/
+    /* 背景图不平铺 */
+    background-size: cover;
+    /* 让背景图基于容器大小伸缩 */
+    background-attachment: fixed;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.head-top {
+    height: 100px;
+    /* background-color: black; */
+}
+
+/* 标题 */
+.head-main {
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+
+.head-main h1 a {
+    color: #9E6E4E;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: '楷体';
+}
+
+.head-main h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+/* 导航栏 */
+.navigation {
+    float: left;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.navigation li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navigation .hm {
+    margin-left: 0px;
+}
+
+
+.navigation a {
+    font-family: 楷体;
+    font-size: 20px;
+    color: #9E6E4E;
+}
+
+.navigation a:hover {
+    color: black;
+}
+
+/* 用户 */
+.user {
+    float: right;
+    margin-right: 85px;
+}
+
+.user a {
+    color: #9E6E4E;
+    font-family: 楷体;
+    font-size: 28px;
+}
+
+.user img {
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+
+.user .ri {
+    position: relative;
+    top: -22px;
+}
+
+/*  */
+.header {
+    float: left;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+}
+
+.soc {
+    margin-top: 8px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 150px;
+    width: 200px;
+    height: 16px;
+}
+
+.soc img {
+    margin-left: 10px;
+}
+
+.search-bar {
+    float: right;
+    width: 255px;
+    height: 34px;
+    margin-top: 13px;
+    margin-right: 150px;
+    position: relative;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+}
+
+.tex {
+    width: 170px;
+    padding: 8px 45px 8px 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+}
+
+.btnt {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    background: url(../images/search.png)no-repeat 0px 0px;
+    border: 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+}
+
+/*--footer-starts--*/
+.footer {
+    float: left;
+    position: relative;
+    margin-top: 50px;
+    background-color: #2B2526;
+    width: 100%;
+    height: 390px;
+}
+
+.footer_box {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.left {
+    margin-left: 15%;
+    float: left;
+    width: 25%;
+}
+
+.center {
+    float: left;
+    width: 25%;
+}
+
+.right {
+    float: left;
+    width: 25%;
+
+}
+
+.footer_under {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    left: 500px;
+}
+
+.footer h4 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.line {
+    border-bottom: 1px solid #fff;
+    width: 55%;
+}
+
+.footer p {
+    color: #6F6E6E;
+    font-size: 16px;
+    line-height: 29px;
+
+}
+
+address {
+    color: #6F6E6E;
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+
+.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: #6F6E6E;
+}
+
+.top_up .footer input[type="text"] {
+    font-size: 15px;
+    color: #A5A5A5;
+    padding: 8px 8px 8px 8px;
+    width: 60%;
+    outline: none;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.footer input[type="submit"]:hover {
+    background: #474F52;
+    transition: 0.5s all;
+}
+
+.footer input[type="submit"] {
+    padding: 0.55em 0em;
+    font-size: 1em;
+    width: 25%;
+    background: #a5acaf;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.footer form {
+    margin-top: 20px;
+}
+
+/*--footer-end--*/
